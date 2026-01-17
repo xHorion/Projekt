@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { mapActions } from 'pinia'
-import { useContactStore } from '@/stores/contactStore'
+import { useContactStore } from '@/stores/ContactStore'
 import PageHeader from '@/components/PageHeader.vue'
 import NavbarHome from '@/components/NavbarHome.vue'
 import ScrollToTop from '@/components/ScrollToTop.vue'

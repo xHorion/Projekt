@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { mapState } from 'pinia'
-import { useReservationStore } from '@/stores/reservationStore'
+import { useReservationStore } from '@/stores/ReservationStore'
 
 export default defineComponent({
   name: 'CartQuickView',
