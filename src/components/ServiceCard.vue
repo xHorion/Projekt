@@ -4,10 +4,10 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'ServiceCard',
   props: {
-    image: { type: String, required: true },      // Шлях до фото
-    icon: { type: String, required: true },       // Клас іконки (напр. 'fa-truck')
-    title: { type: String, required: true },      // Заголовок послуги
-    description: { type: String, required: true } // Текст опису
+    image: { type: String, required: true },
+    icon: { type: String, required: true },
+    title: { type: String, required: true },
+    description: { type: String, required: true }
   }
 })
 </script>
@@ -33,10 +33,10 @@ export default defineComponent({
 </template>
 
 <style scoped>
-/* Додаткові стилі для кастомізації, якщо Bootstrap недостатньо */
+
 img {
   object-fit: cover;
-  height: 200px; /* Фіксована висота, щоб всі картки були рівні */
+  height: 200px;
   width: 100%;
 }
 </style>

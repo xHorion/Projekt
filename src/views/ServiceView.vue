@@ -24,7 +24,7 @@ export default defineComponent({
         <div class="row pt-5">
           <div class="col-lg-6 mb-5">
             <ServiceCard
-              image="/img/service-1.jpg"
+              image="img/service-1.jpg"
               icon="fa-truck"
               title="Fastest Door Delivery"
               description="Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed duo. Guberg sea et et lorem dolor sed duo."
@@ -33,7 +33,7 @@ export default defineComponent({
 
           <div class="col-lg-6 mb-5">
             <ServiceCard
-              image="/img/service-2.jpg"
+              image="img/service-2.jpg"
               icon="fa-coffee"
               title="Fresh Coffee Beans"
               description="Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed duo. Guberg sea et et lorem dolor sed duo."
@@ -42,7 +42,7 @@ export default defineComponent({
 
           <div class="col-lg-6 mb-5">
             <ServiceCard
-              image="/img/service-3.jpg"
+              image="img/service-3.jpg"
               icon="fa-award"
               title="Best Quality Coffee"
               description="Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"
@@ -51,7 +51,7 @@ export default defineComponent({
 
           <div class="col-lg-6 mb-5">
             <ServiceCard
-              image="/img/service-4.jpg"
+              image="img/service-4.jpg"
               icon="fa-table"
               title="Online Table Booking"
               description="Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor"

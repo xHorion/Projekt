@@ -17,7 +17,7 @@ export const useContactStore = defineStore('contact', {
     sendMessage(payload: Omit<ContactMessage, 'id' | 'date'>) {
       const newMessage: ContactMessage = {
         ...payload,
-        id: Date.now(), // Уникальный номер заявки
+        id: Date.now(),
         date: new Date().toLocaleString()
       };
       this.messages.push(newMessage);

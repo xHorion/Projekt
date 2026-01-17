@@ -9,10 +9,9 @@ export default defineComponent({
     }
   },
   mounted() {
-    // Імітація завантаження сторінки
     setTimeout(() => {
       this.isLoaded = true;
-    }, 1500); // 1.5 секунди
+    }, 1500);
   }
 })
 </script>
@@ -36,7 +35,7 @@ export default defineComponent({
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #33211d; /* Твій колір фону */
+  background-color: #33211d;
   display: flex;
   justify-content: center;
   align-items: center;
